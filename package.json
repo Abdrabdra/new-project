@@ -1,0 +1,37 @@
+{
+  "name": "newclient",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/material": "^5.2.4",
+    "@reduxjs/toolkit": "^1.7.1",
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "react-window": "^1.8.6",
+    "redux-logger": "^3.0.6",
+    "sass": "^1.49.7",
+    "swiper": "^8.0.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.0",
+    "@types/react": "17.0.37",
+    "@types/react-window": "^1.8.5",
+    "@types/redux-logger": "^3.0.9",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "4.5.4"
+  }
+}

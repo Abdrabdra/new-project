@@ -1,0 +1,36 @@
+.button {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #999999;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button :active {
+  background-color: transparent;
+}
+
+.icon {
+  width: 22.5px;
+  height: 22.5px;
+  object-fit: contain;
+  margin: 4px;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  opacity: 0.7;
+}
+
+.button-primary {
+  @extend .button;
+  background-color: #8a3ffc;
+  color: #ffffff;
+}

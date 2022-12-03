@@ -1,0 +1,20 @@
+.wrapper {
+  background: linear-gradient(90.16deg, #8a3ffc 1.33%, #671cda 99.86%);
+  margin: 0;
+  width: 100vw;
+  padding: 1rem 1rem;
+  min-height: 300px;
+  @media (max-width: 900px) {
+    margin-bottom: 50px;
+  }
+}
+
+.marketIcon {
+  width: 217px;
+  height: 84px;
+}
+
+.appStoreIcon {
+  width: 185px;
+  margin-left: 1rem;
+}

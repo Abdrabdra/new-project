@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background-color: #8A3FFC;
+  height: 300px;
+  color: white;
+  max-width: 100vw;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.main {
+  min-height: 50vh;
+  padding: 1rem 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding-bottom: 100px;
+  max-width: 1440px;
+}
+
+@media (max-width: 900px) {
+  .main {
+    padding: 0.5rem 0.5rem;
+    padding-bottom: 45px;
+  }
+}
+
+.appBar {
+  background-color: #F0F0F0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.toolbar {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+}
+
+.button {
+  color: #666666;
+}
